@@ -1,0 +1,29 @@
+Division du site
+    Section1
+        Header
+            div pour le logo
+            nav pour les liens de navigations
+        Une autre Section
+            Image
+            div pour le texte à droite
+    Section2 avec fond blanc
+        Une section 
+            un titre et un paragraphe
+        Article1
+            Image1
+            Image2
+            Image3
+            Image4
+        Artcle2
+    Footer
+        h1
+        p
+        div 
+            input
+        div
+            logo1
+            logo2
+            logo3
+            logo4
+        div 
+            copyrigth

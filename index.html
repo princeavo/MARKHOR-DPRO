@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/index.js" defer></script>
     <title>MARKHOR</title>
 </head>
 <body>
@@ -56,7 +57,9 @@
             </p>
             <div class="cards">
                 <div class="card">
-                    <img src="./assets/images/wedding-white-roses.jpg" alt="" srcset="">
+                    <div class="image-container">
+                        <img src="./assets/images/wedding-white-roses.jpg" alt="" srcset="">
+                    </div>
                     <h4 class="productTitle">Skin Care</h4>
                     <p class="product-description">
                         Product Id : 314
@@ -67,7 +70,9 @@
                     </button>
                 </div>
                 <div class="card">
-                    <img src="./assets/images/montre.jpg" alt="" srcset="">
+                    <div class="image-container">
+                        <img src="./assets/images/montre.jpg" alt="" srcset="">
+                    </div>
                     <h4 class="productTitle">Woman watch</h4>
                     <p class="product-description">
                         Product Id : 314
@@ -82,7 +87,9 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="./assets/images/summer-skin-car.avif" alt="" srcset="">
+                    <div class="image-container">
+                        <img src="./assets/images/summer-skin-car.avif" alt="" srcset="">
+                    </div>
                     <h4 class="productTitle">Summer skin car Care</h4>
                     <p class="product-description">
                         Product Id : 314
@@ -97,7 +104,9 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="./assets/images/summer-skin-car2.avif" alt="" srcset="">
+                    <div class="image-container">
+                        <img src="./assets/images/summer-skin-car2.avif" alt="" srcset="">
+                    </div>
                     <h4 class="productTitle">Skin care Lotion</h4>
                     <p class="product-description">
                         Product Id : 314
@@ -130,8 +139,8 @@
         <h1>Join our mailing list</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus excepturi minus exercitationem natus. Voluptates, deleniti quam? Sint ipsum labore doloribus?</p>
         <form>
-            <input type="text" placeholder="EMAIL ADRESS">
-            <button type="submit"><i class="fa">A</i></button>
+            <input type="email" placeholder="EMAIL ADRESS" id="newsInput">
+            <button type="button" id="newButton"><i class="fa">></i></button>
         </form>
         <div class="icons">
             <i class="fa-brands fa-facebook-f"></i>
@@ -141,7 +150,7 @@
             <i class="fa-brands fa-pinterest-p"></i>
         </div>
         <div class="copyrigth">
-            &copy; 2016 Markhor, All rigths reserved
+            &copy; <span>2016</span> Markhor, All rigths reserved
         </div>
     </footer>
 </body>
